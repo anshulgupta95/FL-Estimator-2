@@ -1,0 +1,5 @@
+node_modules/
+COPages*
+logs/
+logs/debug.log
+logs/exceptions.log
