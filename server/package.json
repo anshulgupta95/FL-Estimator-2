@@ -1,32 +1,32 @@
 {
-  "name": "myapp",
+  "name": "Estimator-API",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "browser": {
-    "request": "xhr"
-  },
+  "browser": {},
   "resolve": {
-    "alias": {
-      "request$": "xhr"
-    }
+    "alias": {}
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.1",
+    "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "path": "^0.12.7",
     "got": "^11.8.2",
+    "joi": "^17.6.0",
     "moment": "^2.29.1",
     "striptags": "^3.2.0",
     "url-exists": "^1.0.3",
     "winston": "^3.3.3",
-    "xhr2": "^0.2.1",
     "xmlbuilder2": "^3.0.2",
     "xmldom": "^0.6.0"
   }
