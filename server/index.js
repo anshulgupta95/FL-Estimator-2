@@ -368,11 +368,11 @@ app.post('/estimator', (req, res) => {
         }
         //debugger;
         pageData = {
-          allURLs: JSON.stringify(allURLs),
-          blogs: JSON.stringify(blogs),
-          pages: JSON.stringify(pages),
-          images: JSON.stringify(allImages),
-          pdfCount: JSON.stringify(pdfPages),
+          allURLs: allURLs,
+          blogs: blogs,
+          pages: pages,
+          images: allImages,
+          pdfCount: pdfPages,
           dataCount: dataCount
         };
         // console.log('All Images:', allImages);
@@ -402,11 +402,11 @@ app.post('/estimator', (req, res) => {
         );
         //debugger;
         pageData = {
-          allURLs: JSON.stringify(allURLs),
-          blogs: JSON.stringify(blogs),
-          pages: JSON.stringify(pages),
-          images: JSON.stringify(allImages),
-          pdfCount: JSON.stringify(pdfPages),
+          allURLs: allURLs,
+          blogs: blogs,
+          pages: pages,
+          images: allImages,
+          pdfCount: pdfPages,
           dataCount: dataCount
         };
         // console.log('All Images:', allImages);
